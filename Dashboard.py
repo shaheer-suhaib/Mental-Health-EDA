@@ -7,7 +7,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 import seaborn as sns
-# st.set_page_config(layout="wide", page_title="Mental Health Dashboard", page_icon="🧠")
+st.set_page_config(layout="wide", page_title="Mental Health Dashboard", page_icon="🧠")
 
 warnings.filterwarnings('ignore')
 
@@ -90,7 +90,6 @@ def plot_trend_by_country(df, column, selected_countries=None):
     ax.spines['right'].set_visible(False)
     st.pyplot(fig)
 
-st.set_page_config(layout="wide", page_title="Mental Health Dashboard", page_icon="🧠")
 
 
 filter_columns ={}
